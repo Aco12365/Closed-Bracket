@@ -14,13 +14,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <meta name="description" content="Page description">
-    <!--Twitter Card data-->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@publisher_handle">
-    <meta name="twitter:title" content="Page Title">
-    <meta name="twitter:description" content="Page description less than 200 characters">
-    <meta name="twitter:creator" content="@author_handle">
-    <meta name="twitter:image" content="http://www.example.com/image.jpg">
+  
     <!--Open Graph data-->
     <meta property="og:title" content="Title Here">
     <meta property="og:type" content="article">
@@ -43,17 +37,27 @@ if (viewportmeta) {
   <body>
     <div class="out">
       <div class="page4 js-page4">
-        <div class="header4 js-header4 header4_empty"><button class="header4__burger js-header4-burger"><svg class="icon icon-burger">
+        <div class="header6 js-header6"><button class="header6__burger js-header6-burger"><svg class="icon icon-burger">
               <use xlink:href="img/sprite.svg#icon-burger"></use>
-            </svg></button><a class="header4__logo header4__logo_blue header4__logo_empty" href="#"><img class="header4__pic header4__pic_black" src="img/logo-empty.svg" alt="" /><img class="header4__pic header4__pic_white" src="img/logo-empty-white.svg" alt="" /><img class="header4__pic header4__pic_black header4__pic_big" src="img/logo.svg" alt="" /><img class="header4__pic header4__pic_white header4__pic_big" src="img/logo-white.svg" alt="" /></a>
-          <div class="header4__control"><button class="header4__notifications"><svg class="icon icon-bell">
+            </svg></button><a class="header6__logo" href="#"><img class="header6__pic header6__pic_black" src="img/logo.svg" alt="" /><img class="header6__pic header6__pic_white" src="img/logo-white.svg" alt="" /></a>
+          <nav class="header6__nav"><a class="header6__link" href="#"><svg class="icon icon-dashboard">
+                <use xlink:href="img/sprite.svg#icon-dashboard"></use>
+              </svg>Dashboard</a><a class="header6__link" href="circle-job-search.html"><svg class="icon icon-search">
+                <use xlink:href="img/sprite.svg#icon-search"></use>
+              </svg>Job Search</a><a class="header6__link" href="#"><svg class="icon icon-calendar-1">
+                <use xlink:href="img/sprite.svg#icon-calendar-1"></use>
+              </svg>Schedule</a><a class="header6__link" href="circle-history.html"><svg class="icon icon-clock">
+                <use xlink:href="img/sprite.svg#icon-clock"></use>
+              </svg>History</a><a class="header6__link active" href="circle-administration.html"><svg class="icon icon-check-square">
+                <use xlink:href="img/sprite.svg#icon-check-square"></use>
+              </svg>Events</a></nav>
+          <div class="header6__control"><button class="header6__notifications active"><svg class="icon icon-bell">
                 <use xlink:href="img/sprite.svg#icon-bell"></use>
-              </svg></button><a class="header4__user" href="#">
-              <div class="header4__ava" style="background-color: #82C43C;">RF</div>
-            </a><button class="header4__logout"><svg class="icon icon-logout">
-                <use xlink:href="img/sprite.svg#icon-logout"></use>
-              </svg></button></div>
-          <div class="header4__bg js-header4-bg"></div>
+              </svg></button></div><a class="header6__user" href="#">
+            <div class="ava"><img class="ava__pic" src="img/ava-9.png" alt="" /></div>
+            <div class="header6__text">Austin Robertson</div>
+          </a>
+          <div class="header6__bg js-header6-bg"></div>
         </div>
         <div class="page4__wrapper page4__wrapper_pd80 page4__wrapper_bg">
           <div class="page4__sidebar">
